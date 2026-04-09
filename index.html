@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nadir Sözlük - Kelimelerin Gücünü Keşfet</title>
+    <meta name="description" content="Türkçenin nadir kelimelerini keşfetmek için doğru yerdesiniz. Nadir Sözlük uygulamasını indirin ve her gün yeni bir kelime ile kelime dağarcığınızı genişletin.">
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Outfit:wght@400;600;800&display=swap" rel="stylesheet">
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="logo.png">
+</head>
+<body class="dark-theme">
+    <!-- Animated Background -->
+    <div class="blob-c blob-1"></div>
+    <div class="blob-c blob-2"></div>
+    <div class="blob-c blob-3"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <img src="logo.png" alt="Nadir Sözlük Logo" class="nav-logo">
+                <span class="nav-brand">Nadir Sözlük</span>
+            </div>
+            <div class="nav-links">
+                <a href="#features" data-i18n="nav_features">Özellikler</a>
+                <a href="#video" data-i18n="nav_video">Tanıtım</a>
+                <a href="#" data-i18n="nav_download" class="nav-download-btn get-app-btn">İndir</a>
+                <button id="lang-toggle" class="lang-btn">TR | <span>EN</span></button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="hero-content">
+            <div class="hero-text-wrap">
+                <span class="badge" data-i18n="hero_badge">Yeni: Android 15 Uyumu!</span>
+                <h1 data-i18n="hero_title">Kelimelerin Gücünü <span class="text-gradient">Keşfet</span></h1>
+                <p data-i18n="hero_subtitle">Türkçenin derinliklerine dalın. Masaüstü ve Rafa Kaldır öğrenme sistemiyle kelime dağarcığınızı geliştirin ve kendinizi günlük testlerle sınayın.</p>
+                <div class="hero-buttons">
+                    <a href="#" class="btn btn-primary get-app-btn" data-i18n="btn_get_app"><i class="fa-brands fa-google-play"></i> Uygulamayı İndir</a>
+                    <a href="#features" class="btn btn-secondary" data-i18n="btn_explore">Daha Fazla Keşfet</a>
+                </div>
+                <div class="stats">
+                    <div class="stat-item"><strong data-i18n="stat_words_num">133,000+</strong> <span data-i18n="stat_words_text">Kelime Bilgisi</span></div>
+                    <div class="stat-item"><strong data-i18n="stat_rating_num">4.9/5</strong> <span data-i18n="stat_rating_text">Kullanıcı Puanı</span></div>
+                    <div class="stat-item"><strong data-i18n="stat_size_num">Sınırsız</strong> <span data-i18n="stat_size_text">Öğrenme Döngüsü</span></div>
+                </div>
+            </div>
+            <div class="hero-image-wrap">
+                <div class="phone-mockup">
+                    <img src="nsana.png" alt="Nadir Sözlük Ana Sayfa" class="hero-screenshot">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Logo / Brand Strip -->
+    <div class="brand-strip">
+        <p data-i18n="from_creator">Powered by</p>
+        <img src="BASERAITECH_LOGO.jpg" alt="Baser Ai Tech Logo" class="creator-logo">
+    </div>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <div class="section-header">
+            <h2 data-i18n="features_title">Neden <span class="text-gradient">Nadir Sözlük?</span></h2>
+            <p data-i18n="features_subtitle">Sıradan bir sözlükten fazlası. Hem keyifli bir öğrenme aracı hem de sıkı bir kelime antrenörü.</p>
+        </div>
+        
+        <div class="features-grid">
+            <div class="feature-card glass">
+                <div class="feature-icon"><i class="fa-solid fa-layer-group"></i></div>
+                <h3 data-i18n="feat1_title">Öğrenme Döngüsü</h3>
+                <p data-i18n="feat1_desc">Bilmediğiniz kelimeleri "Masaüstü"ne taşıyın, öğrendikten sonra "Rafa Kaldır"ın. Kelimeler sizin kontrolünüzde!</p>
+            </div>
+            
+            <div class="feature-card glass">
+                <div class="feature-icon"><i class="fa-solid fa-clock-rotate-left"></i></div>
+                <h3 data-i18n="feat2_title">Gelişmiş Widget & Bildirimler</h3>
+                <p data-i18n="feat2_desc">Günün kelimesini otomatik bildirimler ve zamanlayıcı sayesinde gün içinde size hatırlatalım.</p>
+            </div>
+            
+            <div class="feature-card glass">
+                <div class="feature-icon"><i class="fa-solid fa-gamepad"></i></div>
+                <h3 data-i18n="feat3_title">Kelime Testi (Quiz)</h3>
+                <p data-i18n="feat3_desc">Nadir filtrelere göre testler oluşturun. Kelimeleri ne kadar bildiğinizi puan tablolarıyla ölçün.</p>
+            </div>
+
+            <div class="feature-card glass">
+                <div class="feature-icon"><i class="fa-solid fa-star"></i></div>
+                <h3 data-i18n="feat4_title">Nadir Kelime Filtresi</h3>
+                <p data-i18n="feat4_desc">Zorluk derecesi 1'den 10'a kadar ayarlanmış nadirlik mekanizmasıyla dilin en gizli kelimelerini bulun.</p>
+            </div>
+        </div>
+
+        <div class="feature-showcase">
+            <div class="showcase-content">
+                <h3 data-i18n="showcase_title">Tamamen Kişiselleştirilebilir Deneyim</h3>
+                <p data-i18n="showcase_desc">Karanlık ve aydınlık temalardan yazı tipi boyutlarına, sesli okuma özelliğinden zengin istatistik grafiklerine kadar her şey sizin rahatlığınız için tasarlandı. Nadirlik oranlarını ayarlayın ve sadece bilmek istediklerinize odaklanın.</p>
+                <ul class="showcase-list">
+                    <li><i class="fa-solid fa-check text-gradient"></i> <span data-i18n="check1">100% Çevrimdışı Çalışma Kabiliyeti</span></li>
+                    <li><i class="fa-solid fa-check text-gradient"></i> <span data-i18n="check2">TTS (Seslendirme) Entegrasyonu</span></li>
+                    <li><i class="fa-solid fa-check text-gradient"></i> <span data-i18n="check3">Detaylı Bireysel İstatistik Ekranı</span></li>
+                </ul>
+            </div>
+            <div class="showcase-images">
+                <img src="nsayar.png" alt="Ayarlar Screenshot" class="showcase-img side-img">
+                <img src="allinone (4).png" alt="Detay Screenshot" class="showcase-img main-img">
+            </div>
+        </div>
+    </section>
+
+    <!-- Video Section -->
+    <section id="video" class="video-section">
+        <div class="section-header">
+            <h2 data-i18n="video_title">Uygulamayı <span class="text-gradient">İş Başında Görün</span></h2>
+        </div>
+        <div class="video-container glass">
+            <video autoplay loop muted playsinline controls class="promo-video">
+                <source src="video.mp4" type="video/mp4">
+                Tarayıcınız video oynatmayı desteklemiyor.
+            </video>
+        </div>
+    </section>
+
+    <!-- Download Section -->
+    <section id="download" class="download-section">
+        <div class="download-box glass">
+            <h2 data-i18n="download_title">Bilgelik Sizinle Olsun</h2>
+            <p data-i18n="download_desc">Hemen Nadir Sözlük uygulamasını indirin ve kendi dijital kütüphanenizi oluşturmaya bugün başlayın.</p>
+            <a href="#" class="btn btn-primary btn-large store-btn">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" alt="Get it on Google Play" height="50">
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-brand">
+                <div class="logo">
+                    <img src="logo.png" alt="Nadir Sözlük Logo" class="nav-logo">
+                    <span class="nav-brand">Nadir Sözlük</span>
+                </div>
+                <p data-i18n="footer_slogan" class="footer-slogan">Eksiksiz ve modern kelime asistanınız.</p>
+            </div>
+            
+            <div class="footer-links">
+                <h4 data-i18n="footer_legal">Yasal</h4>
+                <ul>
+                    <li><a href="privacy.html" data-i18n="footer_privacy">Gizlilik Politikası</a></li>
+                    <li><a href="terms.html" data-i18n="footer_terms">Kullanım Şartları</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-links">
+                <h4 data-i18n="footer_contact">İletişim</h4>
+                <ul>
+                    <li><a href="mailto:baseraitech@gmail.com">Destek & Geri Bildirim</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; <span id="year">2026</span> Baser Ai Tech. <span data-i18n="footer_rights">Tüm hakları saklıdır.</span></p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
